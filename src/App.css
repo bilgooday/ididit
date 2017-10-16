@@ -1,0 +1,119 @@
+body {
+  text-align: center;
+  /*font-family: 'Oxygen', sans-serif;*/
+  font-family: 'Bree Serif', serif;
+}
+
+header {
+  margin-top: 35px;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+.Logo-text {
+  margin: 15px 0 0 0;
+}
+
+.App-logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  height: 50px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+.App-title {
+  margin-top: 150px;
+  font-weight: lighter;
+  font-size: 100px;
+}
+
+
+header {
+  margin: 0;
+}
+
+h3 {
+  font-weight: lighter;
+}
+
+#header-1 {
+  height: 85%;
+  width: 100%;
+  left:0%;
+  overflow: hidden;
+  position: absolute;
+  color: rgba(255, 255, 255, .8);
+}
+
+#header-2 {
+  margin-top: 100vh;
+  height: 450px;
+  top: 50%;
+  margin-bottom: 50px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+#background-video{
+  position: absolute;
+  left: 0px;
+  z-index: -1;
+}
+
+#instructions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgba(231,	94,	89,	1);
+}
+
+#instructions-title {
+  margin-bottom: 50px;
+  color: grey;
+}
+
+.steps {
+  margin: 50px;
+}
+
+.edit-form {
+  width: 75px;
+}
+
+.new-task {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-person {
+  width: 35%;
+}
+
+#task-form {
+  justify-content: center;
+}
+
+
+#save-button {
+  margin-bottom: 75px;
+  background-color: rgba(231,	94,	89,	1);
+  width: 150px;
+  border-radius: 50px;
+}
+
+#save-button:hover {
+  margin-bottom: 50px;
+  background-color: rgba(231,	94,	89,	.7);
+  width: 150px;
+  border-radius: 50px;
+}
+/*@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}*/
